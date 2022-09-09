@@ -7,7 +7,7 @@ int main()
     scanf("%f",&b);
     printf("Enter second number:");
     scanf("%f",&a);
-     printf("sum=%f\n", a+b);
-    printf("difference=%f", a-b);
+     printf("sum=%0.2f\n", a+b);
+    printf("difference=%0.2f", a-b);
     return 0;
 }

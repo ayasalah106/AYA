@@ -1,1 +1,1 @@
-scanf
+#include<stdlib.h>

@@ -1,15 +1,17 @@
 #include <stdio.h>
+#include<stdlib.h>
 int main()
 {
     char a[30], b[30], c[30];
-    printf("Enter a name");
-    scanf("%c", &a);
-    printf("Enter a place");
-    scanf("%c", &b);
-    printf("Enter a color");
-    scanf("%c", &c);
-    printf("i hate %c", a);
-    printf("i want to go to %c",b);
-    printf("My fav color is %c",c);
+    printf("Enter a name:");
+    scanf("%s\n" , a);
+    printf("Enter a color:");
+    scanf("%s\n" , c);
+    printf("Enter a place:");
+    scanf("%s\n" , b);
+    
+    printf("i hate %s\n", a);
+    printf("i want to go to %s\n", b);
+    printf("My fav color is %s" ,c);
     return 0;
 }
