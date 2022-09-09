@@ -13,7 +13,5 @@ int main()
     printf("i hate %s\n",x);
     printf("%s is my fav color\n",y);
     printf("i want to go to %s",z);
-
-
     return 0;
 }
