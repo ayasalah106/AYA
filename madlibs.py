@@ -1,0 +1,6 @@
+color= input("Enter a color:")
+fruit=input("Enter a fruit:")
+celebrity=input("Enter a celebrity:")
+print("my fav color is " + str(color))
+print(fruit + "is " + str(color))
+print("i love " + str(celebrity))
